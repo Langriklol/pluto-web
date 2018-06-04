@@ -5,7 +5,7 @@ body {
   padding: 0;
   margin: 0;
   height: 100vh;
-  background: url("http://wallpapers.ae/wp-content/uploads/2014/10/Pluto-Planet-Wallpaper.jpg") no-repeat fixed;
+  background: ../img/Pluto-Planet-Wallpaper.jpg no-repeat fixed;
   background-size: contain;
   max-width: 100vw; }
   body div {
