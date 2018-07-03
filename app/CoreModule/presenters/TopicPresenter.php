@@ -21,4 +21,10 @@ class TopicPresenter extends BasePresenter
     {
         $this->template->topic = $this->manager->getTopic($id);
     }
+
+    //Renders all topics
+    public function renderAll()
+    {
+        $this->template->topics = $this->manager->getTopics();
+    }
 }
